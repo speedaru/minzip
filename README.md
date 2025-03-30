@@ -69,10 +69,9 @@ int main() {
 }
 ```
 
-Unzipping a File
-cpp
-Copy
-Edit
+### Unzipping a File
+
+```cpp
 #include "minzip.h"
 
 int main() {
@@ -88,10 +87,11 @@ int main() {
     }
     return 0;
 }
-Password-Protected Zip File
-cpp
-Copy
-Edit
+```
+
+### Password-Protected Zip File
+
+```cpp
 #include "minzip.h"
 
 int main() {
@@ -108,12 +108,12 @@ int main() {
     }
     return 0;
 }
-Building the Project
-Ensure you have zlib.lib and minizip.lib in the lib/ folder.
+```
 
-Include the header files in the include/ folder in your project.
-
-Link the zlib.lib and minizip.lib static libraries in your build settings.
+### Building the Project
+- Ensure that zlib.lib and minizip.lib are in the lib/ folder.
+- Include the header files in the include/ folder in your project.
+- Link the zlib.lib and minizip.lib static libraries in your build settings.
 
 Example for Visual Studio
 Add zlib.lib and minizip.lib under Project Properties > Linker > Input > Additional Dependencies.
