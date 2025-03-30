@@ -9,9 +9,6 @@
 # Ignore build directory
 minzip/build/
 
-# Ignore lib directory
-minzip/lib/
-
 // Ignore wtv
 minzip/x64
 
