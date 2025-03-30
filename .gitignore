@@ -7,10 +7,10 @@
 *.VC.db
 
 # Ignore build directory
-mincrypto/build/
-mincrypto/include
-mincrypto/lib
-mincrypto/x64
+minzip/build/
+
+# Ignore wtv
+minzip/x64
 
 # Ignore any object or temp files
 *.obj
@@ -32,7 +32,7 @@ Makefile
 # Ignore compiled binaries
 *.exe
 *.dll
-*.lib
+# *.lib
 *.so
 *.a
 *.out
